@@ -7,7 +7,7 @@
   <style>
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: url('https://i.imgur.com/gfM9dLw.jpeg') center/cover no-repeat;
+      background: url('https://i.imgur.com/qFZYhG3.jpeg') center/cover no-repeat;
       color: #fff;
       margin: 0;
       padding: 0;
@@ -172,7 +172,7 @@
 </head>
 <body>
   <div class="slot-wrapper">
-    <img src="https://i.imgur.com/TjSIF2X.png" alt="Logo" style="max-width: 300px; height: auto; margin-top: 4vw;" />
+    <img src="https://i.imgur.com/ci70NCr.png" alt="Logo" style="max-width: 300px; height: auto; margin-top: 4vw;" />
     <div>Bakiye: <span id="balance">1000</span> 💰</div>
     <div class="bet-bar-wrapper">
       <div class="bet-bar" id="betBar"></div>
@@ -236,7 +236,7 @@ const showPopup = (text, buttonText, callback) => {
     { symbol: '🍊', weight: 30 },
     { symbol: '🍇', weight: 25 },
     { symbol: '🔔', weight: 20 },
-    { symbol: '<img src="https://i.imgur.com/H3WSlLm.png" style="width:100%; height:100%; object-fit:contain;" />', weight: 20 }
+    { symbol: '<img src="https://i.imgur.com/peZLqOF.png" style="width:100%; height:100%; object-fit:contain;" />', weight: 20 }
   ];
 
   const payouts = {
@@ -245,7 +245,7 @@ const showPopup = (text, buttonText, callback) => {
     '🍊': 6,
     '🔔': 12,
     '🍇': 30,
-    '<img src="https://i.imgur.com/H3WSlLm.png" style="width:100%; height:100%; object-fit:contain;" />': 100 // Increased diamond payout for big win
+    '<img src="https://i.imgur.com/peZLqOF.png" style="width:100%; height:100%; object-fit:contain;" />': 100 // Increased diamond payout for big win
   };
 
   const getRandomSymbol = () => {
@@ -327,7 +327,7 @@ const showPopup = (text, buttonText, callback) => {
           newSymbol.className = "symbol";
           // Force diamonds on the final step if this is the big win spin
           if (forceDiamonds && step === 4) {
-            newSymbol.innerHTML = '<img src="https://i.imgur.com/H3WSlLm.png" style="width:100%; height:100%; object-fit:contain;" />';
+            newSymbol.innerHTML = '<img src="https://i.imgur.com/peZLqOF.png" style="width:100%; height:100%; object-fit:contain;" />';
           } else {
             const randomSymbol = getRandomSymbol();
             if (randomSymbol.includes('<img')) {
@@ -403,7 +403,7 @@ const showPopup = (text, buttonText, callback) => {
       
       // Show CONGRATULATIONS popup and redirect
       showPopup("TEBRİKLER KAZANDINIZ!", "Devam Et", () => {
-        window.location.href = "https://t.ly/bonusual";
+        window.location.href = "https://www.google.com.tr";
       });
       
     } else {
